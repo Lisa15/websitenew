@@ -14,6 +14,11 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+.navbar-wrapper .navbar .container {
+    width: auto;
+    height: 8em;
+    background-color: #fff;
+}
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
