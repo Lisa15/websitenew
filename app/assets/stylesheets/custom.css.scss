@@ -105,11 +105,16 @@ body {
   letter-spacing: -1px;
 }
 
+img {
+    vertical-align: middle;
+    margin-top: 1em;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {/*768px*/
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -144,4 +149,12 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+@media (min-width: 568px){
+.navbar-collapse {
+  float: right;
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+}
 }
