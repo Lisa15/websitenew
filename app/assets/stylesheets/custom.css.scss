@@ -51,6 +51,20 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+.navbar-inverse .navbar-collapse{
+  background-color: grey;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse {
+    background-color: #808080;
+    border-color: 1px solid #A3BB85;
+}
+.navbar-inverse .navbar-nav > .active > a{
+  color: #fff;
+    background-color: #A3BB85;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
