@@ -14,6 +14,7 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+
 .navbar {
 
     margin-bottom: 0px;
@@ -80,7 +81,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 400px;
+  height: 500px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -88,7 +89,9 @@ body {
   z-index: 10;
 }
 .carousel-inner {
-    height: 400px;
+    height: 500px;
+    border-bottom: 5px solid #A3BB85;
+
 }
 
 
@@ -145,7 +148,7 @@ body {
 
 .img-responsive {
     height: 22em;
-    margin-top: 5em;
+    margin-top: 8em;
 }
 
 .carousel-caption  h1{
@@ -218,5 +221,12 @@ img {
     width: auto;
     border-top: 0;
     box-shadow: none;
+}
+}
+@media (min-width: 768px){
+.col-sm-3 {
+    width: 15%;
+    float: right;
+    margin-top: 3em;
 }
 }

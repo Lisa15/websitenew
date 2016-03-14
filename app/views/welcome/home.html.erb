@@ -27,11 +27,17 @@
 src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==
 ================================================== -->
   <body>
-  <%= image_tag('Crystal1.png', :size => '500x80', :alt => 'logo') %><!--</center>-->
+     <!-- Columns are always 50% wide, on mobile and desktop -->
+<!--<div class="row">
+  <div class="col-xs-6"><%= image_tag('Crystal1.png', :size => '500x120', :alt => 'logo') %></div>
+  <div class="col-xs-6 col-sm-3"><%= image_tag('addressicon.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">Unit 3, Butterstream,<span style="padding-left: 2.8em"> Business Park, Clane</span></div>
+   <div class="col-xs-6 col-sm-3"><center><%= image_tag('phone-volume.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">045-893228</span></center></div>
+</div>
+
     <!--<div class="navbar-wrapper">
       <div class="container">-->
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+   <!--     <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,7 +47,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
                 <span class="icon-bar"></span>
               </button>
              <!-- <a class="navbar-brand" href="#"></a>-->
-            </div>
+   <!--         </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
@@ -64,7 +70,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
 
 
 
-
+<!--
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -80,7 +86,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
               </ul>
             </div>
          </div>
-        </nav>
+        </nav>-->
 
     <!--  </div>
     </div>
@@ -97,7 +103,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <%= image_tag('overheadfan.jpg', :alt => 'fan') %>
+          <%= image_tag('overheadfan1.png', :alt => 'fan') %>
          <!-- <img class="first-slide" src="Crystal1.png" alt="First slide">-->
           <div class="container">
             <div class="carousel-caption">
@@ -105,7 +111,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
               <h1>Air Conditioning</h1>
               <h3>Specialists in Installation, Service & Maintenance</h3>
               <p></p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
@@ -113,7 +119,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1><span style="font-size: 30px; letter-spacing: 2px">Irelands Leading Air Conditioning Specialists. Why?</span></h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
@@ -123,7 +129,7 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
           <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
+              <h1><span style="font-size: 30px; letter-spacing: 2px">High Spec Design & Installation Projects.</span></h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
@@ -177,8 +183,9 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
       <div class="row featurette">
         <center><h2> Latest News</h2></center>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Latest Installation & Design. <span class="text-muted">High Spec.</span></h2>
+          <h2 class="featurette-heading">Complete Installation & Design. <span class="text-muted">High Spec.</span></h2>
           <p class="lead">Irish Distillers Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           <center><p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p></center>
         </div>
         <div class="col-md-5">
           <%= image_tag('irishdistillers.jpg', :size => '500x800', :class => 'featurette-image img-responsive center-block', :alt => 'install') %>
@@ -190,11 +197,14 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Technology, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Thermal Energy Storage with Phase Change Materials (PCM TES) by Crystal Air
+Proven in Europe, the USA and the Middle East, PCM TES is a more efficient and cost effective way to deliver energy to chill air. By creating and storing energy during off-peak periods which can then be used in high-demand periods, it spreads the daytime requirement for energy to chill or heat air across 24 hours resulting in important cost and capacity benefits. Here are just some advantages of PCM Thermal Energy Storage:</p>
+           <center><p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p></center>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+           <%= image_tag('chilled_water_tes.jpg', :size => '500x800', :class => 'featurette-image img-responsive center-block', :alt => 'install') %>
+          <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
         </div>
       </div>
 
@@ -202,11 +212,13 @@ src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICR
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Yes, We lay all the foundations for your. <span class="text-muted">Air Conditioning Needs.</span></h2>
+          <p class="lead">Appoint Crystal Air as your turnkey solution partner and we will look after the entire job from beginning to end, freeing you up to look after your business.
+Turnkey solution partner - what does that mean? It means that we appoint and manage any additional contractors you need: builders, plumbers, electricians, and, where you need a job signed off for professional indemnity insurance purposes, we'll appoint a consulting engineer.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <%= image_tag('turnkey.png', :size => '500x800', :class => 'featurette-image img-responsive center-block', :alt => 'install') %>
+          <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
         </div>
       </div>
 
