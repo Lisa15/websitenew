@@ -109,6 +109,7 @@ body {
 }
 
 
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /*View More Buttons*/
@@ -116,6 +117,9 @@ body {
     color: #FFF;
     background-color: #A3BB85;
     border-color: #A3BB85;
+}
+.container {
+    width: 100%;
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -174,12 +178,22 @@ img {
     /*margin-top: 1em;*/
 }
 
+/**AboutUs Page**/
+.ytp-thumbnail-overlay {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive iframe{
+  height: 50%;
+    width: 50%;
+}
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (max-width: 768px) {/*768px*/
+/*@media (max-width: 768px) {/*768px*/
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -208,7 +222,55 @@ img {
   .featurette-heading {
     font-size: 50px;
   }
+
+
+/*
+@media only screen and (min-width: 480px) {
+    body:after {
+        content: "480 to 768px";
+        background-color: hsla(180,60%,40%,0.7);
+    }
 }
+@media only screen and (min-width: 768px) {
+    body:after {
+        content: "768 to 1024px";
+        background-color: hsla(270,60%,40%,0.7);
+    }
+}
+@media only screen and (min-width: 1024px) {
+    body:after {
+        content: "1024 and up";
+        background-color: hsla(360,60%,40%,0.7);
+    }
+}
+*/
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+  .grid_6{
+    clear: both;
+
+  }
+
+}
+/*.container clearfix.grid_6{
+  display: inline-block;
+}*/
+  .grid_6{
+    display: inline-block;
+    width: 50%;
+    float: left;
+
+}
+
 
 @media (min-width: 992px) {
   .featurette-heading {
