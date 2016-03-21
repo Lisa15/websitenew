@@ -3,7 +3,7 @@
   <div class="grid_6">
 <!--<div id="head" class="row">-->
   <!--<div class="col-xs-6">--><%= image_tag('Crystal1.png', :class => "responsive", :size => '500x100', :alt => 'logo') %></div>
-  <!--<div class="col-xs-6 col-sm-3">-->  <div class="grid_6" style="margin-top: 5%"><span style="float: right"><%= image_tag('addressicon.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">Unit 3, Butterstream,</span> Business Park, Clane
+  <!--<div class="col-xs-6 col-sm-3">-->  <div class="grid_6" style="margin-top: 5%"><span style="float: right; margin-bottom: 1%;"><%= image_tag('addressicon.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">Unit 3, Butterstream,</span> Business Park, Clane
   <!-- <div class="col-xs-6 col-sm-3">--><span style="padding-left: 1em;"><%= image_tag('phone-volume.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">045-893228</span></span></span></div></div>
 
 
@@ -28,9 +28,50 @@
                 <li><%= link_to 'Home', root_path %></li><!--class="active"-->
 
                 <li><%= link_to 'AboutUs', aboutus_path %></li>
-                <li><a href="#contact">Services</a></li>
-                <li><a href="#about">Projects</a></li>
-                <li><a href="#contact">Partners</a></li>
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to 'Installation', installation_path %></li>
+                    <li><a href="#">Service & Maintenance</a></li>
+                    <li><a href="#">Design</a></li>
+                    <!--<li role="separator" class="divider"></li>
+                  <li class="dropdown-header">International</li>-->
+                    <li><a href="#">Turnkey Solutions</a></li>
+                    <li><a href="#">Thermal Energy Storage</a></li>
+                    <li><a href="#">Contracts/New Builds</a></li>
+                  </ul>
+                </li>
+
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to 'Hotels', projects_path %></li>
+                    <li><a href="#">Commercial Office Buildings</a></li>
+                    <li><a href="#">Data Centers</a></li>
+                    <!--<li role="separator" class="divider"></li>
+                  <li class="dropdown-header">International</li>-->
+                    <li><a href="#">International</a></li>
+                    <li><a href="#"></a></li>
+                  </ul>
+                </li>
+
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partners<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to 'Mitsubishi', partners_path %></li>
+                    <li><a href="#">Daikin</a></li>
+                    <li><a href="#">CIAT</a></li>
+                    <!--<li role="separator" class="divider"></li>
+                  <li class="dropdown-header">International</li>-->
+                    <li><a href="#">Airedale</a></li>
+                    <li><a href="#">Panasonic</a></li>
+                    <li><a href="#">Edpac</a></li>
+                  </ul>
+                </li>
+
+
                 <li><a href="#about">Our Team</a></li>
                 <li><a href="#contact">Testimonials</a></li>
                 <li><a href="#about">Enviornmental</a></li>

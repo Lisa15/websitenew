@@ -7,4 +7,18 @@ class WelcomeController < ApplicationController
   def aboutus
     
   end
+  
+  def services
+    
+  end
+  
+  def projects
+    
+  end
+  
+  def partners
+    
+  end
+    
+    
 end

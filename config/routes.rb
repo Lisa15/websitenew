@@ -7,6 +7,11 @@ Rails.application.routes.draw do
 
   root 'welcome#home'
   get 'aboutus', to: 'welcome#aboutus'
+  get 'services', to: 'welcome#services'
+  get 'installation', to: 'welcome#installation'
+  get 'projects', to: 'welcome#projects'
+  get 'partners', to: 'welcome#partners'
+  
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
