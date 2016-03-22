@@ -185,19 +185,33 @@ img {
     height: 50%;
 }
 /****paragraph********/
+.top{
+  height: 10px;
+  background-color: #A3BB86;;
+}
+.jumbotron{
+  width:100%;
+  height: 200px;
+  padding-top: 0px;
+ background-image:url('/assets/gray-radiant-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .aboutheader{
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
-  padding-bottom: 5%;
-  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-top: 4%;
   font-weight: 400;
   color: darkseagreen;
 }
-#rowend.row{
+#rowend.row {
   margin-left: 10%;
     margin-right: 10%;
-  font-family: Roboto,arial,sans-serif;
+
 }
+
 .embed-responsive .embed-responsive-item, .embed-responsive iframe{
   height: 50%;
     width: 50%;
@@ -279,13 +293,13 @@ vertical-align:central;
 }
 
 #main .avada-row{
-max-width: 940px;
+max-width: 1200px;
 }
 .avada-row {
     margin: 0 auto;
 }
 #main #content {
-    width: 71.1702128%;
+    width: 61.1702128%;
 }
 .post-content {
     line-height: 26px;
@@ -328,7 +342,7 @@ img .alignright{
     margin-bottom: 20px;
 }
 #main #sidebar {
-    width: 23.4042553%;
+    width: 33.4042553%;
 }
 #main #sidebar {
     background-color: #ffffff;
@@ -342,9 +356,10 @@ img .alignright{
 }
 #sidebar .widget {
     position: relative;
+    text-align: center;
 }
 #sidebar #text-11 .textwidget {
-    background-color: #f8f8f8;
+    background-color: #808080;
     padding: 10px 10px 10px 10px;
 }
 #sidebar a.continue.button.large.default {
@@ -352,9 +367,10 @@ img .alignright{
     margin-bottom: 10px;
 }
 a.continue.button.large.default {
-    color: #54770f !important;
-    background: #AAD75D;
-  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #D1E990), color-stop(1, #AAD75D) );
+    color: #EEF7FE !important;
+  text-decoration: none;
+    background: #A3BB85;
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #A3BB85), color-stop(1, #AAD75D) );
     border: 1px solid #9dba60;
     height: 43px;
     line-height: 43px;
