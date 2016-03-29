@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'installation', to: 'welcome#installation'
   get 'projects', to: 'welcome#projects'
   get 'partners', to: 'welcome#partners'
+   get 'ourteam', to: 'welcome#ourteam'
   
 
   # Example of regular route:
