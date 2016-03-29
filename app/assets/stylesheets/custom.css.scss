@@ -82,7 +82,7 @@ padding-bottom: 40px;
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+ /* margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -220,10 +220,10 @@ a {
   letter-spacing: -1px;
 }
 
-.img-responsive {
+/*.img-responsive {
     height: 22em;
     margin-top: 8em;
-}
+}*/
 
 .carousel-caption  h1{
   font-size: 35px;
@@ -249,20 +249,134 @@ img {
 }
 
 /**********************LATEST PROJECTS SECTION**********************/
+@media (min-width: 1200px){
+.container {
+    width: 80%;
+  }}
+@media (min-width: 1200px){
+.col-lg-12 {
+    width: 100%;
+  float: left;
+
+  }}
+.col-lg-12 {
+position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+  text-align: center;
+}
+h1 small{
+  font-size: 65%;
+  font-weight: 400;
+    line-height: 1;
+    color:  #A3BB85;
+}
+/*.img-responsive{
+
+    display: block;
+    max-width: 100%;
+    height: 100% !important;
+}*/
+.section-lines2{
+background-color: #777;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+}
+@media (min-width: 992px){
+.col-md-3 {
+    width: 25%;
+  float: left;
+  height: 180px;
+  }}
+.col-md-3 {
+position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.text-center {
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li:first-child>a {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination>.active>a{
+  z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+
+}
+.pagination>li>a{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+
+    text-decoration: none;
+
+    border: 1px solid #ddd;
+}
+
+
 .section-lines {
     border-top: solid 1px #ddd;
     border-bottom: solid 1px #ddd;
-    margin-bottom: 40px;
-    background-color: #f9f9f9;
-}
+   /* margin-bottom: 40px;*/
 
+    background-color: #f9f9f9;
+
+}
+.section-lines1 {
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    /*margin-bottom: 40px;*/
+
+  background-color: #f9f9f9;
+
+}
+/*.btn {
+position: relative;
+    left: 46%;
+}*/
 section {
     display: block;
 }
+@media (min-width: 992px){
+#latestprojectscol4.col-md-12 {
+    width: 100%;
+  float: left;
+  text-align: center;
+  }}
 
 @media (min-width: 992px){
 #latestprojectscol4.col-md-4 {
-    width: 33.33333333%;
+    width: 43.33333333%;
   float: left;
   }}
 #latestprojectscol4.col-md-4{
@@ -274,21 +388,27 @@ position: relative;
 @media (min-width: 1200px){
 .home-devices {
     padding-top: 80px;
+  padding-bottom: 6%;
   }}
 h3.head3 {
    font-size: 1.7em;
+
    font-family: "Lato", sans-serif;
     font-weight: 300;
     line-height: 120%;
     color: #A3BB85;/*color: #0099da;*/
     margin: 20px 0 17px 0;
 }
+@media (min-width: 992px){
+.col-md-7 {
+    width: 57.333333%;
+  }}
 
 
 
 @media (min-width: 992px){
 #latestprojectscol8.col-md-8 {
-    width: 66.66666667%;
+    width: 46.66666667%;
   float: left;
   }}
 #latestprojectscol8.col-md-8 {
@@ -750,6 +870,9 @@ text-align: center;
 
 
 /**********************AboutUs Page******************888**/
+
+
+
 .ytp-thumbnail-overlay {
     position: relative;
     width: 50%;
@@ -829,6 +952,7 @@ vertical-align:central;
 #main{padding: 55px 10px 45px;
     background: #fff;
   clear: both;
+      margin-right: 8%;
 }
 
 #main .avada-row{
