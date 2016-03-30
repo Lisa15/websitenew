@@ -2,6 +2,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -293,7 +294,7 @@ background-color: #777;
 .col-md-3 {
     width: 25%;
   float: left;
-  height: 180px;
+  height: 100%;
   }}
 .col-md-3 {
 position: relative;
@@ -486,7 +487,7 @@ h2.no-margin-top{
     font-family: "Lato", sans-serif;
     font-weight: 300;
     line-height: 120%;
-    color: #0099da;
+    color: #777;
     margin: 20px 0 17px 0;
 }
 .panel-group {
@@ -515,6 +516,7 @@ h2.no-margin-top{
 
 .panel-group .panel-heading {
     border-bottom: 0;
+  background-color: #A3BB85;
 }
 .panel-heading-link, .panel-plus-link {
     padding: 0;
@@ -533,7 +535,7 @@ h2.no-margin-top{
 }
 
 .panel-default .panel-heading-link a {
-    color: #333;
+    color: #fff;
 }
 .panel-heading-link > a {
     display: block;
@@ -884,7 +886,7 @@ text-align: center;
 }
 /****paragraph********/
 .top{
-  height: 10px;
+ height: 0px;
   background-color: #A3BB86;;
 }
 .jumbotron{
@@ -1079,6 +1081,43 @@ a.continue.button.large.default {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
 
 /*@media (max-width: 768px) {/*768px*/
   /* Navbar positioning foo */
