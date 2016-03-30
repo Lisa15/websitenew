@@ -8,7 +8,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-padding-bottom: 40px;
+/*padding-bottom: 40px;*/
   color: #5a5a5a;
 }
 
@@ -127,6 +127,7 @@ padding-bottom: 40px;
    /* padding: 4em 0 3em;*/
     border-bottom: 1px solid rgba(0,0,0,.05);
     background-color: #777;
+  padding-bottom: 4%;
 }
 @media (min-width: 1200px){
 .container {
@@ -286,6 +287,7 @@ h1 small{
 }*/
 .section-lines2{
 background-color: #777;
+  padding-bottom: 4%;
 }
 .portfolio-item {
     margin-bottom: 25px;
@@ -351,6 +353,7 @@ position: relative;
    /* margin-bottom: 40px;*/
 
     background-color: #f9f9f9;
+  padding-bottom: 4%;
 
 }
 .section-lines1 {
@@ -427,7 +430,7 @@ position: relative;
     height: auto;
  margin-left: 44%;
     margin-bottom: 8%;
-  margin-top: 6%;
+  margin-top: 14%;
 }
 .tab-content>.tab-pane {
     display: none;
@@ -917,6 +920,13 @@ text-align: center;
     width: 50%;
 }
 
+/*************************TESTIMONIAL HOMEPAGE***************************/
+
+/**************************CERTIFIED HOMEPAGE******************************/
+#finalcol6.col-md-4 p{
+  text-align: center;
+}
+
 /****************Projects***********************/
 
 /* Column margins */
@@ -1192,12 +1202,15 @@ a.continue.button.large.default {
 /*.container clearfix.grid_6{
   display: inline-block;
 }*/
+
   .grid_6{
     display: inline-block;
     width: 50%;
     float: left;
 
-}
+  }
+
+
 
 
 @media (min-width: 992px) {
