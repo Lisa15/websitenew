@@ -1,98 +1,178 @@
 
-<div class="container clearfix" style="width: 100%">
-  <div class="grid_6">
-   
-<!--<div id="head" class="row">-->
-  <!--<div class="col-xs-6">--><%= image_tag('Crystal1.png', :class => "responsive", :size => '500x100', :alt => 'logo') %></div>
-  <!--<div class="col-xs-6 col-sm-3">-->   <div class="grid_6" style="margin-top: 5%"><span style="float: right; margin-bottom: 1%;"><%= image_tag('addressicon.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">Unit 3, Butterstream,</span> Business Park, Clane
-  <!-- <div class="col-xs-6 col-sm-3">--><span style="padding-left: 1em;"><%= image_tag('phone-volume.png', :size => '25x25', :alt => 'logo') %><span style="padding-left: 1em">045-893228</span></span></span></div></div>
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
+<!--*-*-*-*-*-*-*-*-*-*- Header *-*-*-*-*-*-*-*-*-*-->
+
+	<header id="immortal_header">
 
 
-    <!--<div class="navbar-wrapper">
-      <div class="container">-->
+		<!--*-*-*-*-*-*-*-*-*-*- TOP BAR *-*-*-*-*-*-*-*-*-*-->
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
+		<div class="container-fluid top_bar_container_fluid">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 top_bar_line_height">
+
+						<!--======= Login Button =========-->
+						<a href="#top_bar_login_modal" data-toggle="modal" id="top_bar_login_btn">
+							<i class="fa fa-sign-in"></i> Login |
+						</a>
+
+						<!--======= Register Button =========-->
+						<a href="#top_bar_register_modal" data-toggle="modal" id="top_bar_register_btn">
+							<i class="fa fa-key"></i> Register |
+						</a>
+
+						<!--======= Search Button =========-->
+						<a href="#top_bar_search_modal" data-toggle="modal" id="top_bar_search_btn">
+							<i class="fa fa-search"></i> Search |
+						</a>
+
+					</div>
+
+					<!--======= Phone Number =========-->
+					<div class="col-md-2 top_bar_line_height" id="top_bar_phone">
+						<i class="fa fa-phone"></i> | +1 (234) 567 89 00
+					</div>
+
+					<!--======= E-mail =========-->
+					<div class="col-md-3 top_bar_line_height" id="top_bar_email">
+						<i class="fa fa-envelope"></i>
+						<a href="#" target="_blank"> | info@immortal.com</a>
+					</div>
+
+					<!--======= Social Media Icons =========-->
+					<div class="col-md-3" id="top_bar_social_icons">
+						<ul class="pull-right">
+							<li>
+								<a href="#"  target="_blank" data-toggle="tooltip" data-placement="bottom" title="1M">
+									<i class="fa fa-facebook" style="color: #fff"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="0.5M">
+									<i class="fa fa-twitter" style="color: #fff"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="5.0k">
+									<i class="fa fa-google-plus" style="color: #fff"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Skype">
+									<i class="fa fa-skype" style="color: #fff"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="2.5k">
+									<i class="fa fa-youtube" style="color: #fff"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Rss">
+									<i class="fa fa-rss" style="color: #fff"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div> <!--*-*-*-*-*-*-*-*-*-*- End Top Bar *-*-*-*-*-*-*-*-*-*-->
+</header>
+<!--
+<section class="logo"style="width: 100%; height: 100px; background-color: #fff">
+<%= image_tag('Crystal1.png', :size => '400x100', :alt => 'fan') %>
+</section>-->
+
+<!-- Navigation -->
+   <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-             <!-- <a class="navbar-brand" href="#"></a>-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <%= image_tag('Crystal1.png', :size => '400x100', :alt => 'fan') %>
+               <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a>-->
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><%= link_to 'Home', root_path %></li><!--class="active"-->
-
-                <li><%= link_to 'AboutUs', aboutus_path %></li>
-
-                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><%= link_to 'All Services', services_path %></li>
-                     <li><a href="#">Installation</a></li>
-                    <li><a href="#">Service & Maintenance</a></li>
-                    <li><a href="#">Design</a></li>
-                    <!--<li role="separator" class="divider"></li>
-                  <li class="dropdown-header">International</li>-->
-                    <li><a href="#">Turnkey Solutions</a></li>
-                    <li><a href="#">Thermal Energy Storage</a></li>
-                    <li><a href="#">Contracts/New Builds</a></li>
-                  </ul>
-                </li>
-
-
-                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><%= link_to 'Hotels', projects_path %></li>
-                    <li><a href="#">Commercial Office Buildings</a></li>
-                    <li><a href="#">Data Centers</a></li>
-                    <!--<li role="separator" class="divider"></li>
-                  <li class="dropdown-header">International</li>-->
-                    <li><a href="#">International</a></li>
-                    <li><a href="#"></a></li>
-                  </ul>
-                </li>
-
-                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partners<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><%= link_to 'Mitsubishi', partners_path %></li>
-                    <li><a href="#">Daikin</a></li>
-                    <li><a href="#">CIAT</a></li>
-                    <!--<li role="separator" class="divider"></li>
-                  <li class="dropdown-header">International</li>-->
-                    <li><a href="#">Airedale</a></li>
-                    <li><a href="#">Panasonic</a></li>
-                    <li><a href="#">Edpac</a></li>
-                  </ul>
-                </li>
-
-
-                <li><%= link_to 'Our Team', ourteam_path %></li>
-                <li><a href="#contact">Testimonials</a></li>
-                <li><a href="#about">Enviornmental</a></li>
-                <li><a href="#contact">Certificates</a></li>
-                <li><a href="#about">News</a></li>
-                <li><a href="#contact">ContactUs</a></li>
-                <!--<li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                                <li><a href="#contact">Contact</a></li>-->
-
-
-
-
-
-
-
-
-              </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-         </div>
-        </nav>
-
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
