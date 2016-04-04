@@ -95,7 +95,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
 
 					<!--======= Phone Number =========-->
 					<div class="col-md-2 top_bar_line_height" id="top_bar_phone">
-						<i class="fa fa-phone"></i> |  (045) 89 33 00
+						<i class="fa fa-phone"></i> |  (045) 89 32 28
 					</div>
 
 					<!--======= E-mail =========-->
@@ -162,26 +162,31 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <%= image_tag('Crystal1.png', :size => '400x100', :alt => 'fan') %>
+
                <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a>-->
             </div>
+            <%= image_tag('Crystal1.png', :class => 'img-responsive-block', :size => '300x100', :alt => 'fan') %>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right">
+
                   <li>
-                        <a href="about.html">Home</a>
+
+                    <%= link_to "Home", root_path, :style =>'color:#222222' %>
+
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                          <%= link_to "AboutUs", aboutus_path, :class => 'css_class', :style =>'color:#222222' %>
                     </li>
                     <li>
-                        <a href="services.html">Services</a>
+                        <%= link_to "Services", services_path, :style =>'color:#222222' %>
                     </li>
                     <li>
-                        <a href="contact.html">Projects</a>
+                        <%= link_to "Projects", projects_path, :style =>'color:#222222' %>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+
+                       <%= link_to "Partners", partners_path %><a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">1 Column Portfolio</a>
@@ -242,7 +247,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
     </nav>
 
 
-         
+
           <%= yield %>
 <aside id="footer-widgets">
     <div id="footerstyle" class="container">
@@ -322,7 +327,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
 </aside> <!-- footer-widgets -->
 <footer id="footer">
     <p> 2016 <a href="#">Crystal Air Ltd</a></p>
-  
+
 
 </footer>
 <div id="back-top">
