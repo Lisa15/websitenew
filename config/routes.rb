@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'installation', to: 'welcome#installation'
   get 'projects', to: 'welcome#projects'
   get 'partners', to: 'welcome#partners'
+  get 'mitsubishi', to: 'welcome#mitsubishi'
+  get 'daikin', to: 'welcome#daikin'
    get 'ourteam', to: 'welcome#ourteam'
   
  devise_for :users

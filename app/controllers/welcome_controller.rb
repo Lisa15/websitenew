@@ -19,6 +19,14 @@ skip_before_action :authenticate_user!, only: [:home]
   def partners
 
   end
+  
+  def mitsubishi
+    
+  end
+  
+  def daikin
+    
+  end
 
   def ourteam
 
