@@ -176,7 +176,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
 
                     </li>
                     <li>
-                          <%= link_to "AboutUs", aboutus_path, :class => 'css_class', :style =>'color:#222222' %>
+                          <%= link_to "AboutUs", aboutus_path, class: 'link-to-text-color', :style =>'color:#222222' %>
                     </li>
                     <li>
                         <%= link_to "Services", services_path, :style =>'color:#222222' %>
@@ -255,12 +255,12 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
             <div id="footercol" class="col-md-4">
                 <h3 class="footer-widget-title">Sitemap</h3>
                 <ul class="list-unstyled three_cols">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">AboutUs</a></li>
-                    <li><a href="portfolio_sidebar.html">Services</a></li>
-                    <li><a href="portfolio_topvar.html">Projects</a></li>
-                    <li><a href="page_timeline_left.html">Partners</a></li>
-                    <li><a href="page_pricing.html">Our Team</a></li>
+                  <li>  <%= link_to "Home", root_path, :style =>'color:#fff' %></li>
+                    <li> <%= link_to "AboutUs", aboutus_path, :style =>'color:#fff' %></li>
+                    <li> <%= link_to "Services", services_path, :style =>'color:#fff' %></li>
+                    <li><%= link_to "Projects", projects_path, :style =>'color:#fff' %></li>
+                    <li><%= link_to "Partners", partners_path, :style =>'color:#fff' %></li>
+                    <li><%= link_to "Our Team", ourteam_path, :style =>'color:#fff' %></li>
                     <li><a href="page_about2.html">Testimonials</a></li>
                     <li><a href="page_team.html">Enviornmental</a></li>
                     <li><a href="page_services.html">Certificates</a></li>
@@ -331,7 +331,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
 
 </footer>
 <div id="back-top">
-    <a href="#">Top<i class="fa fa-chevron-up"></i></a>
+<a href="#"><i class="fa fa-chevron-up"></i></a>
   </div>
 
 
