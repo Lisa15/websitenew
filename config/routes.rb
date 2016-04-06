@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
- 
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -12,11 +12,13 @@ Rails.application.routes.draw do
   get 'services', to: 'welcome#services'
   get 'installation', to: 'welcome#installation'
   get 'projects', to: 'welcome#projects'
+   get 'hotels', to: 'welcome#hotels'
+  get 'commercialspace', to: 'welcome#commercialspace'
   get 'partners', to: 'welcome#partners'
   get 'mitsubishi', to: 'welcome#mitsubishi'
   get 'daikin', to: 'welcome#daikin'
    get 'ourteam', to: 'welcome#ourteam'
-  
+ 
  devise_for :users
 
 

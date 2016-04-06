@@ -15,6 +15,10 @@ skip_before_action :authenticate_user!, only: [:home]
   def projects
 
   end
+  
+  def commercialspace
+    
+  end
 
   def partners
 

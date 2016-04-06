@@ -145,12 +145,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
 		</div> <!--*-*-*-*-*-*-*-*-*-*- End Top Bar *-*-*-*-*-*-*-*-*-*-->
 </header>
      <%= bootstrap_flash %>
-<!--
-<section class="logo"style="width: 100%; height: 100px; background-color: #fff">
-<%= image_tag('Crystal1.png', :size => '400x100', :alt => 'fan') %>
-</section>-->
 
-<!-- Navigation -->
    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
@@ -161,6 +156,9 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
                 </button>
 
                <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a>-->
@@ -181,16 +179,19 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                     <li>
                         <%= link_to "Services", services_path, :style =>'color:#222222' %>
                     </li>
+            <li>
+                        <%= link_to "Our Team", ourteam_path, :style =>'color:#222222' %>
+                    </li>
 
                     <li class="dropdown">
 
- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-2-col.html">Hotels</a>
+                                <%= link_to "Hotels", hotels_path %>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Commercial Office Spaces</a>
+                               <%= link_to "Commercial Office Space", commercialspace_path %>
                             </li>
                             <li>
                                 <a href="portfolio-3-col.html">Data Centers</a>
@@ -202,7 +203,7 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                                 <a href="portfolio-item.html">International</a>
                             </li>
                         </ul>
-                    </li>
+   </li>
 
  <li class="dropdown">
          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners<span class="caret"></span></a>
@@ -259,6 +260,8 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                         </ul>
                     </li>
                 </ul>
+
+
             </div>
             <!-- /.navbar-collapse -->
         </div>

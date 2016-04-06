@@ -10,6 +10,7 @@
 body {
 /*padding-bottom: 40px;*/
   color: #5a5a5a;
+ 
 
 }
 .overlay {
@@ -20,6 +21,37 @@ body {
     height: 100%;
     background-color: rgba(164,189,134,0.5);
 }
+.section-tout{
+  background: url('/assets/fannew.png');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-lines2{
+  background: url('/assets/fannew.png');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-test{
+  background: url('/assets/fannew.png');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-certs{
+  background: url('/assets/fannew.png');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.jumbosection{
+  background: url('/assets/fannew.png');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 @media (min-width: 768px){
 .img-responsive-block{
@@ -35,10 +67,20 @@ body {
  color: #fff;
 }
 .top_bar_container_fluid {
-    background: #777777;
+  background: url('/assets/fannew.png');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   /* background: #777777;*/
     padding: 5px 0 5px 0;
     font-family: 'Raleway',sans-serif;
 }
+/*.section-lines1{
+  background: url('/assets/whiteback.jpeg');
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}*/
 
 @media (min-width: 1200px){
 .container {
@@ -234,7 +276,7 @@ a {
     background-color: #777;
 }
 .navbar-inverse .navbar-nav > li > a {
- color: #444; 
+ color: #444;
 }
 
 
@@ -496,7 +538,7 @@ a {
 /**********************LATEST PROJECTS SECTION**********************/
 @media (min-width: 1200px){
 .container {
-    width: 85%;
+    width: 100%;
   }}
 @media (min-width: 1200px){
 .col-lg-12 {
@@ -608,13 +650,13 @@ position: relative;
 background-color: #f9f9f9;
 
 }
-#freecooling.col-lg-4{
+/*#freecooling.col-lg-4{
  background-image:url('/assets/fan61.png');
   background-repeat: no-repeat;
   height: 500px;
   background-size: 30%;
   background-position: center;
-}
+}*/
 
 /*.btn {
 position: relative;
@@ -1143,7 +1185,7 @@ footer{
  height: 0px;
   background-color: #A3BB86;;
 }
-.jumbotron{
+/*.jumbotron{
    border-top: 8px solid #A3BB86;
   border-bottom: 8px solid #A3BB86;
   width:100%;
@@ -1153,7 +1195,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+}*/
 .aboutheader{
   font-size: 30px;
   text-align: center;
