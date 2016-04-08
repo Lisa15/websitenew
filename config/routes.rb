@@ -11,14 +11,21 @@ Rails.application.routes.draw do
   get 'aboutus', to: 'welcome#aboutus'
   get 'services', to: 'welcome#services'
   get 'installation', to: 'welcome#installation'
+  get 'servicemaintenance', to: 'welcome#servicemaintenance'
   get 'projects', to: 'welcome#projects'
    get 'hotels', to: 'welcome#hotels'
   get 'commercialspace', to: 'welcome#commercialspace'
+  get 'datacenter', to: 'welcome#datacenter'
+  get 'shoppingcenters', to: 'welcome#shoppingcenters'
+  get 'international', to: 'welcome#international'
   get 'partners', to: 'welcome#partners'
   get 'mitsubishi', to: 'welcome#mitsubishi'
   get 'daikin', to: 'welcome#daikin'
-   get 'ourteam', to: 'welcome#ourteam'
- 
+  get 'panasonic', to: 'welcome#panasonic'
+  get 'ciat', to: 'welcome#ciat'
+  get 'edpac', to: 'welcome#edpac'
+  get 'ourteam', to: 'welcome#ourteam'
+
  devise_for :users
 
 

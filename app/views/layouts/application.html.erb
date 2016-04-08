@@ -176,9 +176,30 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                     <li>
                           <%= link_to "AboutUs", aboutus_path, :style =>'color:#222222' %>
                     </li>
-                    <li>
-                        <%= link_to "Services", services_path, :style =>'color:#222222' %>
-                    </li>
+             <li class="dropdown">
+
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <%= link_to "Installation", installation_path %>
+                            </li>
+                            <li>
+                               <%= link_to "Service & Maintenance", servicemaintenance_path %>
+                            </li>
+                            <li>
+                                 <%= link_to "Data Center", datacenter_path %>
+                            </li>
+                            <li>
+                               <%= link_to "Shopping Centers", shoppingcenters_path %>
+                            </li>
+                            <li>
+                                <%= link_to "International", international_path %>
+                            </li>
+                        </ul>
+   </li>
+
+
+
             <li>
                         <%= link_to "Our Team", ourteam_path, :style =>'color:#222222' %>
                     </li>
@@ -194,13 +215,13 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                                <%= link_to "Commercial Office Space", commercialspace_path %>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Data Centers</a>
+                                 <%= link_to "Data Center", datacenter_path %>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">Shopping Centers</a>
+                               <%= link_to "Shopping Centers", shoppingcenters_path %>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">International</a>
+                                <%= link_to "International", international_path %>
                             </li>
                         </ul>
    </li>
@@ -215,13 +236,13 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                                <%= link_to "Daikin", daikin_path %>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Panasonic</a>
+                                 <%= link_to "Panasonic", panasonic_path %>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">CIAT</a>
+                               <%= link_to "CIAT", ciat_path %>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">EDPAC</a>
+                                <%= link_to "EDPAC", edpac_path %>
                             </li>
                         </ul>
                     </li>
@@ -229,13 +250,13 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Certified<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
+                                <a href="blog-home-1.html"></a>
                             </li>
                             <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
+                                <a href="blog-home-2.html"></a>
                             </li>
                             <li>
-                                <a href="blog-post.html">Blog Post</a>
+                                <a href="blog-post.html"></a>
                             </li>
                         </ul>
                     </li>
@@ -243,19 +264,19 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="full-width.html">Full Width Page</a>
+                                <a href="full-width.html"></a>
                             </li>
                             <li>
-                                <a href="sidebar.html">Sidebar Page</a>
+                                <a href="sidebar.html"></a>
                             </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a href="faq.html"></a>
                             </li>
                             <li>
-                                <a href="404.html">404</a>
+                                <a href="404.html"></a>
                             </li>
                             <li>
-                                <a href="pricing.html">Pricing Table</a>
+                                <a href="pricing.html"></a>
                             </li>
                         </ul>
                     </li>
