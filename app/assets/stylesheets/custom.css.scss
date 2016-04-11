@@ -429,7 +429,7 @@ img.featurette-image.img-responsive.center-block1{
   background-repeat: no-repeat;
   background-size: cover;*/
     border-bottom: 1px solid rgba(0,0,0,.05);
-    background-color: #333;
+ /*   background-color: #333;*/
   padding-bottom: 4%;
 }
 @media (min-width: 1200px){
@@ -731,7 +731,7 @@ h3.head3 {
    font-family: "Lato", sans-serif;
     font-weight: 300;
     line-height: 120%;
-    color: #307C00;/*color: #0099da;*/
+    color: #fff;/*color: #0099da;*/
     margin: 20px 0 17px 0;
 }
 @media (min-width: 992px){
@@ -1516,4 +1516,14 @@ a.continue.button.large.default {
   letter-spacing:2px;
 
   }
+}
+
+
+
+.parallax {
+    min-height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
