@@ -26,30 +26,30 @@ background-color:#307C00; color:#fff;
     height: 100%;
     background-color: rgba(0,0,0,0.5);/*(156,196,0,0.5);*//*rgba(164,189,134,0.5);*/
 }
-.section-tout{
+/*.section-tout{
   background: url('/assets/fannew.png');
      background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.section-lines2{
+}*/
+/*.section-lines2{
   background: url('/assets/fannew.png');
      background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.section-test{
+}*/
+/*.section-test{
   background: url('/assets/fannew.png');
      background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.section-certs{
+}*/
+/*.section-certs{
   background: url('/assets/fannew.png');
      background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+}*/
 /*.jumbosection{
   background: url('/assets/fan.jpg');
      background-repeat: no-repeat;
@@ -429,7 +429,7 @@ img.featurette-image.img-responsive.center-block1{
   background-repeat: no-repeat;
   background-size: cover;*/
     border-bottom: 1px solid rgba(0,0,0,.05);
-    background-color: #777;
+    background-color: #333;
   padding-bottom: 4%;
 }
 @media (min-width: 1200px){
@@ -598,7 +598,7 @@ h1 small{
   font-size: 65%;
   font-weight: 400;
     line-height: 1;
-    color:  #A3BB85;
+    color:  #307C00;
 }
 /*.img-responsive{
 
@@ -607,7 +607,7 @@ h1 small{
     height: 100% !important;
 }*/
 .section-lines2{
-background-color: #777;
+background-color: #333;
   padding-bottom: 4%;
 
 }
@@ -731,7 +731,7 @@ h3.head3 {
    font-family: "Lato", sans-serif;
     font-weight: 300;
     line-height: 120%;
-    color: #A3BB85;/*color: #0099da;*/
+    color: #307C00;/*color: #0099da;*/
     margin: 20px 0 17px 0;
 }
 @media (min-width: 992px){
@@ -848,7 +848,7 @@ h2.no-margin-top{
 
 .panel-group .panel-heading {
     border-bottom: 0;
-  background-color: #A3BB85;
+  background-color: #307C00;
 }
 .panel-heading-link, .panel-plus-link {
     padding: 0;
@@ -960,7 +960,7 @@ h2.section-title {
 
 
 #footer-widgets {
-    background-color: #444;
+    background-color: #333;
     color: #eee;
     padding: 0px 0 20px 0;
     margin-top: 30px;
@@ -1245,6 +1245,10 @@ footer{
     margin-right: 10%;
 
 }*/
+#rowend.row{
+padding-left: 10%;
+    padding-right: 10%;
+}
 
 .embed-responsive .embed-responsive-item, .embed-responsive iframe{
   height: 50%;
