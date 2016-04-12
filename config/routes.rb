@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get 'projects', to: 'welcome#projects'
    get 'hotels', to: 'welcome#hotels'
   get 'commercialspace', to: 'welcome#commercialspace'
+  get 'residential', to: 'welcome#residential'
   get 'datacenter', to: 'welcome#datacenter'
   get 'shoppingcenters', to: 'welcome#shoppingcenters'
   get 'international', to: 'welcome#international'
