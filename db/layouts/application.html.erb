@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title><%= content_for?(:title) ? yield(:title) : "Website" %></title>
     <%= csrf_meta_tags %>
 
@@ -160,6 +160,8 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                     <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+
 
                 </button>
 
@@ -208,16 +210,16 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %>
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <%= link_to "Commercial Sector", commercialspace_path %>
+                                <%= link_to "Commercial Sector", commercialsector_path %>
                             </li>
                             <li>
-                               <%= link_to "Hospitality Sector", hotels_path %>
+                               <%= link_to "Hospitality Sector", hospitalitysector_path %>
                             </li>
                           <li>
-                               <%= link_to "Retail Sector", shoppingcenters_path %>
+                               <%= link_to "Retail Sector", retailsector_path %>
                             </li>
                            <li>
-                                 <%= link_to "Residential Sector", residential_path %>
+                                 <%= link_to "Residential Sector", residentialsector_path %>
                             </li>
                             <li>
                                  <%= link_to "Data Centers", datacenter_path %>

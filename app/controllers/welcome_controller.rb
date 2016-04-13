@@ -15,28 +15,44 @@ skip_before_action :authenticate_user!, only: [:home]
   def installation
 
   end
-  
+
   def servicemaintenance
-    
+
+  end
+
+  def contracts
+
+  end
+
+  def turnkey
+
+  end
+
+  def thermalenergy
+
   end
 
   def projects
 
   end
 
-  def commercialspace
+  def hospitalitysector
 
   end
-  
-  def residential
-    
+
+  def commercialsector
+
+  end
+
+  def residentialsector
+
   end
 
   def datacenter
 
   end
 
-  def shoppingcenters
+  def retailsector
 
   end
 
@@ -68,9 +84,6 @@ skip_before_action :authenticate_user!, only: [:home]
 
   end
 
-  def ourteam
-
-  end
-
+ 
 
 end
